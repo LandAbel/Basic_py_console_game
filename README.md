@@ -18,6 +18,7 @@ def game_ends(winner_name):
     
 
 while game_running == True:
+
     counter = 0
     new_round = True
     player = {'name': 'Abel', 'attack_min': 5, 'attack_max': 30, 'heal_min': 16, 'heal_max': 30, 'health': 100}
